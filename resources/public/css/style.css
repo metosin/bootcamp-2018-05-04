@@ -1,0 +1,27 @@
+body {
+  background: #2b2b2b;
+  color: #bababa;
+  font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 5rem;
+  margin: 1rem
+}
+
+.page {
+  margin: 1rem
+}
+
+a, a:visited, a:active {
+  text-decoration: none;
+  color: #bababa;
+  border-bottom: 1px dashed #eeeeee;
+  transition: color 0.5s;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #727272;
+  border-bottom: 1px solid #727272;
+}
